@@ -1,0 +1,121 @@
+let roster [
+
+let user = {
+
+firstName: "Lydia",
+
+lastName: "Lim",
+
+favoriteColor: "blue",
+
+favoriteAnimal : "dog",
+
+book: "No",
+
+movie: "me before you",
+
+game: "No",
+
+superhero: "Thor",
+
+randomFact: " birds are tetrapods even though they only walk on two legs",
+};
+
+
+ me = {
+
+firstName:"Zainib",
+
+lastName:"Ahmed",
+
+color:"Blue",
+
+animal:"Giraffe",
+
+book:"The Book Thief",
+
+movie:"Amelie",
+
+game:"none",
+
+superhero:"The Hulk",
+
+randomFact:"I love to eat olives."};
+
+var person = {
+  firstName: "Toni",
+  lastName: "Anguiano”,
+  favoriteColor: “blue”,
+  favoriteAnimal: “cat”,
+    favoriteBook: “The Bell Jar”,
+    favoriteMovieGenre: “Horror”,
+    favoriteSuperHero: “batman”,
+    randomFact: “I like to hangout in        cemeteries and research dark California history”,
+};
+
+let person = {
+
+      firstName: "Camila",
+
+     lastName: "Avina Garcia",
+
+     favoriteColor: "Green",
+
+     favoriteAnimal:"Dog",
+
+     favoriteBook:"Match",
+
+    favoriteMovie:"Lady and the Tramp",
+
+    favoriteGame:" Guitar Hero",
+
+    favoriteSuperhero:"Spiderman",
+
+    randomFact:"I have a twin",
+
+}
+
+let person = {
+
+firstName: “Matteo”,
+
+lastName: “Leva”,
+
+Color: “Black”,
+
+Animal: “Cat”,
+
+Book: “Pillars of the earth,
+
+Movie:"The Godfather",
+
+Game:  “Witcher 3",
+
+superHero: "spider man",
+
+Fact:"I'm disappointed in GOT season 8",
+}
+
+var human = {
+
+firstName:"Eddson",
+
+lastName:"Jose",
+
+color:"midnight blue",
+
+animal:"pig",
+
+book:"The Dark Forest",
+
+movie:"The Fountain",
+
+game:"Halo Reach",
+
+superhero:"Superman",
+
+fact:"I am made up of stardust"
+};
+
+
+]
