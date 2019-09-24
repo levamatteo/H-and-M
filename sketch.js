@@ -8,9 +8,9 @@ firstName: "Lydia",
 
 lastName: "Lim",
 
-Color: "blue",
+color: "blue",
 
-Animal : "dog",
+animal : "dog",
 
 book: "No",
 
@@ -18,10 +18,10 @@ movie: "me before you",
 
 game: "No",
 
-superhero: "Thor",
+superHero: "Thor",
 
 randomFact: " birds are tetrapods even though they only walk on two legs",
-};
+},
 
 
 {
@@ -34,15 +34,15 @@ color:"Blue",
 
 animal:"Giraffe",
 
-book:"The Book Thief",
+book:"The book Thief",
 
 movie:"Amelie",
 
 game:"none",
 
-superhero:"The Hulk",
+superHero:"The Hulk",
 
-randomFact:"I love to eat olives."};
+randomFact:"I love to eat olives."},
 
 {
 
@@ -51,18 +51,18 @@ randomFact:"I love to eat olives."};
   lastName: "Anguiano",
 
 
-  Color: "blue",
+  color: "blue",
 
-  Animal: "cat",
+  animal: "cat",
 
-    Book: "The Bell Jar",
+    book: "The Bell Jar",
 
-    MovieGenre: "Horror",
+    movieGenre: "Horror",
 
-    SuperHero: "batman",
+    superHero: "batman",
 
     randomFact: "I like to hangout in cemeteries and research dark California history",
-};
+},
 
 {
 
@@ -70,21 +70,21 @@ randomFact:"I love to eat olives."};
 
      lastName: "Avina Garcia",
 
-     Color: "Green",
+     color: "Green",
 
-     Animal:"Dog",
+     animal:"Dog",
 
-     Book:"Match",
+     book:"Match",
 
-    Movie:"Lady and the Tramp",
+    movie:"Lady and the Tramp",
 
-    Game:" Guitar Hero",
+    game:" Guitar Hero",
 
-    Superhero:"Spiderman",
+    superHero:"Spiderman",
 
     randomFact:"I have a twin",
 
-}
+},
 
 {
 
@@ -96,16 +96,16 @@ color: "Black",
 
 animal: "Cat",
 
-book: "Pillars of the earth,
+book: "Pillars of the earth",
 
-movie:"The Godfather",
+movie: "The Godfather",
 
 game:  "Witcher 3",
 
 superHero: "spider man",
 
 fact:"I'm disappointed in GOT season 8",
-}
+},
 
 {
 
@@ -123,10 +123,10 @@ movie:"The Fountain",
 
 game:"Halo Reach",
 
-superhero:"Superman",
+superHero:"Superman",
 
 fact:"I am made up of stardust"
-};
+},
 
 {
 
@@ -144,124 +144,126 @@ movie:"Ace Ventura pet detective",
 
 game:"Smash Brothers",
 
-superhero:"Flash",
+superHero:"Flash",
 
-randomFact:"I am a Libra", }
+randomFact:"I am a Libra",
+},
+
 
 {
 firstName: "Lydia",
 lastName: "Lim",
-Color: "blue",
-Animal : "dog",
+color: "blue",
+animal : "dog",
 book: "No",
 movie: "me before you",
 game: "No",
-superhero: "Thor",
+superHero: "Thor",
 randomFact: " birds are tetrapods even though they only walk on two legs",
-};
+},
 
 {firstName:"Chi",
 lastName:"Nguyen",
-Color:"purple",
+color:"purple",
 animal:"bird",
 book:"Math Curse",
 movie:"Big Hero 6",
 game:"Checkers",
-superhero(es):"Big Hero 6 (team)",
-randomFact:"Lately this year, monsters have especially been occupying my mind, among other things."};
+superHero:"Big Hero 6 (team)",
+randomFact:"Lately this year, monsters have especially been occupying my mind, among other things."},
 
 {
 firstName: "Leon",
 lastName: "Quach",
-Color: "silver",
+color: "silver",
 animal:"penguins",
 book: "Letters to a Young Poet",
 movie:"Kung fu Hustle",
 game: "Pokemon Crystal Version",
-superhero: "Batman",
+superHero: "Batman",
 randomFact:"I have two pet guinea pigs"
-};
+},
 
 {
 
-firstName: "Sierra"
+firstName: "Sierra",
 
-lastName: "Roe"
+lastName: "Roe",
 
-.color = purple
+color: "purple",
 
-.animal = dog
+animal: "dog",
 
-.book = phantom tollbooth
+book: "phantom tollbooth",
 
-.movie = Naussica of the Valley of the Wind
+movie: "Naussica of the Valley of the Wind",
 
-.game = pokemon heartgold
+game: "pokemon heartgold",
 
-.superhero = captain marvel
+superHero: "captain marvel",
 
-randomFact: can run 7 minute mile
+randomFact: "can run 7 minute mile",
 
-};
+},
 
 {
 firstName: "Hao",
 lastName: "Rong",
-Color: hex(#4285F4),
+color: "blue",
 animal: "otter",
 book: "A Brief History of Time",
 movie: "Angry Birds 2",
 game: "Final Fantasy XIV",
-superhero: "Tony Stark",
+superHero: "Tony Stark",
 randomFact: "I like cats.",
-};
+},
 
 {
     firstname: "Kaicong",
     lastname: "Tang",
-    favColor: "black",
+    favcolor: "black",
     animal: "dog",
     movie: "iron man123",
     game: "csgo",
-    superhero: "iron man",
+    superHero: "iron man",
     fact: "love gaming",
-};
+},
 
 {
 firstName: "Sumedh",
 lastName: "Vedanthi",
-faveColor:"Blue" ,
+favecolor:"Blue" ,
 animal: "Crow",
-book: "Of Mice and Men".
+book: "Of Mice and Men",
 movie: "American Psycho",
 game: "Fruit Ninja" ,
 superHero: "Batman" ,
 randomFact: "im a black belt",
-};
+},
 
 {
 firstName: "Chris",
 lastName: "Weber",
-Color: "green",
-Animal: "cat",
-Book: "Hitchhiker's Guide to the Galaxy",
-Movie: "Spiderman Into The Spiderverse",
-Game: "The Legend of Zelda Breath of the Wild",
-SuperHero: "Iron Man",
-randomFact: "I'm vegetarian"
-};
+color: "green",
+animal: "cat",
+book: "Hitchhiker's Guide to the Galaxy",
+movie: "Spiderman Into The Spiderverse",
+game: "The Legend of Zelda Breath of the Wild",
+superHero: "Iron Man",
+randomFact: "I'm vegetarian",
+},
 
 {
 firstName: "Andy",
 lastName: "Wu",
-Color: "Red",
+color: "Red",
 animal:"Kiwi",
 book: "Romance of the Three Kingdoms",
 movie:"Shrek 2",
 game: "Super Mario 64",
-superhero: "Static Shock",
-randomFact:"I've had jaw correction surgery"
-};
+superHero: "Static Shock",
+randomFact:"I've had jaw correction surgery",
+},
 
 {
 
@@ -269,20 +271,20 @@ firstName: "xiaowei",
 
 lastName: "zheng",
 
-Color:" green",
+color:" green",
 
-Animal: "babies",
+animal: "babies",
 
-Book: "the little girl at the window",
+book: "the little girl at the window",
 
-Movie: "eat drink man woman",
+movie: "eat drink man woman",
 
-Game: none,
+game: "none",
 
-SuperHero: none,
+superHero: "none",
 
 randomFact: "don't drink coke"
 
-};
+},
 
 ]
