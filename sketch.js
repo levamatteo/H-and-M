@@ -286,5 +286,53 @@ superHero: "none",
 randomFact: "don't drink coke"
 
 },
+{firstName: "Anthony",
+lastName: "Valdovinos",
+color:"purple",
+animal: "eagle",
+book: "Hatchet",
+movie: "Titanic",
+game: "Starfox Adventures",
+superHero: "none",
+randomFact: "I studied Japanese for 4 years"
+},
 
+{ firstName: "Rachel",
+lastName: "Centinaje",
+color: "green",
+animal:"dogs",
+book: "none",
+movie:"Drive",
+game: "Dishonored",
+superHero: "Deadpool",
+randomFact:"I went camping this weekend" },
+
+{firstName:"Alicia",
+lastName:"Breinke",
+color: "purple",
+animal: "dog",
+book:"The Art of Racing in the Rain",
+movie: "Spirited Away",
+superHero: "Wonder Woman",
+randomFact: "I want to live in another country someday" },
+
+ {
+firstName: "asra",
+ lastName: "siddiqui",
+ color: "idk",
+ animal: "chameleons",
+ book: "codex 1962",
+ movie: "pulp fiction",
+ game: "idk",
+ superHero: "hate em all",
+ randomFact: "im grumpy" },
 ]
+function setup() {
+  createCanvas(400, 400);
+    console.log(roster[1].movie)
+}
+
+function draw() {
+  background(220);
+
+}
