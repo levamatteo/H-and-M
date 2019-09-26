@@ -329,7 +329,7 @@ firstName: "asra",
 ]
 function setup() {
   createCanvas(400, 400);
-    console.log(roster[1].movie)
+    console.log(random(book))
 }
 
 function draw() {
