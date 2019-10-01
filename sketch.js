@@ -354,7 +354,7 @@ if(animating== true){
 }
 }
 
-function mousePressed() {
+function randomizer() {
   if (roster[0]){
 background(random(255))
   randomIndex = int(random(roster.length));
