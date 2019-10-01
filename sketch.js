@@ -336,6 +336,7 @@ let roster = [
 ]
 
 let randomIndex;
+let animating = false;
 
 function setup() {
   createCanvas(400, 400);
@@ -348,6 +349,10 @@ function setup() {
 
 function draw() {}
 
+if(animating== true){
+  ellipse(random(width), random(height), random(50,150))
+}
+}
 
 function mousePressed() {
   if (roster[0]){
