@@ -340,18 +340,23 @@ let randomIndex;
 function setup() {
   createCanvas(400, 400);
     background(220);
+    textSize(32);
 
 
+    text("click to randomise", 50, 50);
 }
 
-function draw() {
+function draw() {}
 
 
-}
 function mousePressed() {
+  if (roster[0]){
 background(random(255))
   randomIndex = int(random(roster.length));
     text(roster[randomIndex].book, 50, 50);
     roster.splice(randomIndex, 1);
-
+} else {
+  background(random(255))
+  text("nothing left!", 50,50)
+}
 }
