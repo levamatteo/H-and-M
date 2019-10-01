@@ -340,13 +340,18 @@ let randomIndex;
 function setup() {
   createCanvas(400, 400);
     background(220);
-randomIndex = int(random(roster.length));
 
-  console.log(roster[randomIndex].book)
-  text(roster[randomIndex].book, 50, 50);
+
 }
 
 function draw() {
 
+
+}
+function mousePressed() {
+background(random(255))
+  randomIndex = int(random(roster.length));
+    text(roster[randomIndex].book, 50, 50);
+    roster.splice(randomIndex, 1)
 
 }
