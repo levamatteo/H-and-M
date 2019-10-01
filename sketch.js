@@ -336,22 +336,40 @@ let roster = [
 ]
 
 let randomIndex;
+let animating = false;
 
 function setup() {
   createCanvas(400, 400);
     background(220);
+textSize(25)
+
+text("click to randomize", 50, 50);
 
 
 }
 
 function draw() {
 
-
+if(animating== true){
+  ellipse(random(width), random(height), random(50,150))
 }
+}
+
+function randomizer(){
+  animating = false;
+    if (roster[0]){
+  background(random(255))
+    randomIndex = int(random(roster.length));
+      text(roster[randomIndex].book, 50, 50);
+      roster.splice(randomIndex, 1);
+  } else{
+    background(random(255))
+    text("nothing left!", 50, 50);
+  }
+}
+
 function mousePressed() {
-background(random(255))
-  randomIndex = int(random(roster.length));
-    text(roster[randomIndex].book, 50, 50);
-    roster.splice(randomIndex, 1);
+animating = true;
+setTimeout(randomizer, 2000);
 
 }
