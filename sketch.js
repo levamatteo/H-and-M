@@ -347,7 +347,7 @@ function setup() {
     text("click to randomise", 50, 50);
 }
 
-function draw() {}
+function draw() {
 
 if(animating== true){
   ellipse(random(width), random(height), random(50,150))
