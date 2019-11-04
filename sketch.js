@@ -337,15 +337,28 @@ let roster = [
 
 let randomIndex;
 let animating = false;
+let startRandomizerButton;
+let addMoreButton;
+let cnv;
+let nameInputs = [];
 
 function setup() {
-  createCanvas(400, 400);
-    background(220);
+  cnv = createCanvas(400,400);
+  cnv.parent("#canvasDiv");
+    background(20,40,200);
 textSize(25)
 
 text("click to randomize", 50, 50);
 
+// button = createButton('click to randomize');
+startRandomizerButton = select('#randButton')
+startRandomizerButton.mousePressed(buttonPressed);
 
+
+for (let i = 0; i < 3; i++){
+nameInputs.push(createInput());
+nameInputs[nameInputs.length - 1].parent("#inputFields");
+  }
 }
 
 function draw() {
@@ -368,7 +381,7 @@ function randomizer(){
   }
 }
 
-function mousePressed() {
+function buttonPressed() {
 animating = true;
 setTimeout(randomizer, 2000);
 }
